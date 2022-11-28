@@ -7,5 +7,5 @@ setup(
    author='Florian Gritsch',
    author_email='DSSS@FAU.de',
    packages=['snowflake'],  # would be the same as name
-   install_requires= ['numpy','turtle'], #external packages acting as dependencies
+   install_requires= [], #external packages acting as dependencies
 )
