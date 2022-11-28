@@ -6,6 +6,7 @@ setup(
    description='Creates a window in which randomly colored snowflakes are drawn',
    author='Florian Gritsch',
    author_email='DSSS@FAU.de',
+   url='https://github.com/Steckdose007/DSSS',
    packages=['snowflake'],  # would be the same as name
-   install_requires= [], #external packages acting as dependencies
+   install_requires= ['numpy'], #external packages acting as dependencies
 )
