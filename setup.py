@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-
-from setuptools import setup
+from distutils.core import setup
+from setuptools import find_packages
 
 setup(
    name='snowflake',
@@ -9,6 +9,6 @@ setup(
    author='Florian Gritsch',
    author_email='DSSS@FAU.de',
    url='https://github.com/Steckdose007/DSSS',
-   packages=['snowflake'],  # would be the same as name
-   install_requires= ['numpy'], #external packages acting as dependencies
+   packages=find_packages(),  # would be the same as name
+   install_requires= ['numpy','turtles'], #external packages acting as dependencies
 )
